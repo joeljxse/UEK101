@@ -1,0 +1,218 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Chathura|Indie+Flower|Lobster|PT+Sans|Sansita');
+
+/* 
+    Chathura -- Dezent, Schlicht, Elegant
+    Amatic SC --- very tumblr, handschrift
+    lobster --- kursiv
+    Indie Flower --- handschrift, hobby-mässig --> unprofessionell
+    PT Sans --- straight, computer-typed, professionell
+    Sansita --- eindrucksvoll, Titel
+
+    Anwendung:
+	p {
+   		 font-family: 'FONTNAME', sans-serif;   
+	}
+
+
+    Kleiner Bildschirm / Grosser Bildschirm 
+    @media screen and (min-width: 768px) {
+    
+}
+
+*/
+
+h1 {
+    font-family: 'sansita', sans-serif;
+}
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+#startseite p {
+    font-size: 1.4rem;
+}
+#nav {
+    width: 100%;
+    background-color: #FFAB40;
+
+    position: fixed;
+    top: 0;
+    
+}
+
+#nav a {
+   
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color:#FFF9C4;
+    display: block;
+    padding: 7px;
+}
+
+#nav ul li {
+    list-style-type: none;
+    
+   
+}
+
+#nav ul {
+    display: flex;
+    justify-content: flex-start;
+   
+    flex-grow: 1;
+    text-align: center;
+     
+}
+
+
+#nav a:hover {
+    background-color: orangered;
+
+
+}
+
+#searchbar {
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    color: white;
+}
+
+body {
+
+    background-color: #FDD835;
+}
+
+.content {
+    border-radius: 3px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    width: 70%;
+    padding: 1rem 3rem;
+}
+
+#about #lebenslauf {
+    margin-top: 13.5px;
+    
+}
+
+.beitragsbild {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.Beitragsinfos{
+    font-family: 'Lobster', sans-serif;
+}
+
+#me {
+    width: 50%;
+    height: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+
+#infoaboutme > ul {
+    flex-direction: column;
+    
+}
+
+#infoaboutme > ul > li {
+    list-style-type: none;
+}
+
+#contact form li {
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+#formflex {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    
+    
+}
+
+.beitragsbild > img {
+    width: 50%;
+    height: 50%;
+}
+
+#formflex > li > input, #formflex select {
+    border: 1px lightgray solid;
+    border-radius: 2px;
+    background-color: floralwhite;
+    width: 40%;
+    height: 30px;
+}
+
+#formflex li{
+    margin: 3% 0;
+}
+
+#formflex > li > label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nomargin {
+    margin: 0;
+}
+
+
+#formflex > li > label {
+    margin: 0 10%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #D84315;
+    width: 100%;
+}
+
+footer > ul {
+    flex-direction: column;
+}
+
+footer > ul > li {
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 468px){
+
+
+   
+
+    #nav ul {
+        flex-direction: column;
+    }
+
+.content {
+    margin-top: 62%;
+}
+
+#about .flex {
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+}
